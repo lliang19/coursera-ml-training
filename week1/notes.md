@@ -80,6 +80,3 @@ where j = 0, 1 represents the feature index number
 - If we repeatedly apply these gradient descents <b>simultaneously</b> to our equations for &theta;<sub>0</sub> and &theta;<sub>0</sub>, our hypothesis will be come more and more accurate
 - This method looks at all the data in the entire training set (summation over m terms), so it's also called <b>batch gradient descent</b><br />
 ![Gradient Descent Linear Regression Contour Graph](images/gradient_descent_linear_regression_contour.png)
-
-## Linear Algebra Review
-
