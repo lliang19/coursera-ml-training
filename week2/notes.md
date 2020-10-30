@@ -55,6 +55,6 @@
 - Computing the inversion of a matrix is approximately <i>O(n<sup>3</sup>)</i> in complexity, so if we have a very large number of features, normal equation will be slow (in practice, somewhere around n = 10,000 might be a good threshold)
 ### Normal Equation Noninvertability
 - In Octave, we want to use the `pinv` function rather than `inv`, because `pinv` (pseudo-inverse) will compute the value of &theta; even if <i>X<sup>T</sup>X</i> is non-invertible (singular, degenerate)
-- If <i>X<sup>T</sup>X</i> is <b>noniinvertible</b>, common causes might be having:
+- If <i>X<sup>T</sup>X</i> is <b>non-invertible</b>, common causes might be having:
   - Redundant features, where two features are linearly dependent
   - Too many features (m &le; n) <-- In this case, delete some features or use "regularization"
