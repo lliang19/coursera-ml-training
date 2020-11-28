@@ -5,3 +5,4 @@
 [Week 3 Notes](week3/notes.md)<br />
 [Week 4 Notes](week4/notes.md)<br />
 [Week 5 Notes](week5/notes.md)<br />
+[Week 6 Notes](week6/notes.md)<br />
